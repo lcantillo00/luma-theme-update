@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/ect/page_configuration">
+     <body>
+         <referenceBlock name="logo">
+             <arguments>
+                 <argument name="logo_file" xsi:type="string">images/svg-heart-logo-1.svg</argument>
+                 <argument name="logo_alt" xsi:type="string">Custom Desing</argument>
+                 <argument name="logo_img_width" xsi:type="number">150</argument>
+                 <argument name="logo_img_heigth" xsi:type="number">45</argument>
+             </arguments>
+
+         </referenceBlock>
+         <referenceBlock name="copyright" remove="true"/>
+     </body>
+</page>
